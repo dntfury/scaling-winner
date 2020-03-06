@@ -35,7 +35,7 @@ while True:
         except SystemExit:
             os._exit(0)
 
-
+#file transfer over http 
 #fp = open(r"C:\Users\dntfury\Documents\Python Scripts\abc.gif")
 #f=io.TextIOWrapper(io.BytesIO(fp), 'utf-8')
 #http_response= http_response + f
