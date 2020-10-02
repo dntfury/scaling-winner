@@ -6,7 +6,7 @@
 
 This is a basic peer-2-peer messaging program written in python , the data transfer is done with the sockets(ip,port pair) and can be run in command promt [CMD].This ahve been run in windows , have not tried in other OS.
 
-## How to Run [test in single PC]
+## How to Run [test in single PC] the server_client_part_1
 
 > Create Two copies of Program 
 > In first copy set the sending <ip,port> in sender function if want as example ('127.0.0.1',8080) this means send messages  to this   
