@@ -1,7 +1,6 @@
 import socket
 import sys
 import os
-import io
 HOST, PORT = 'localhost', 8080
 
 listen_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -18,11 +17,12 @@ while True:
         http_response = b"""\HTTP/1.1 200 OK 
 
 <html>
+<head><title>TCP server</title></head>
 <body>
-<h1>Hello!!, World!</h1>
-<img src="http://www.sample_image_link.jpeg">
-</html>
-</body>"""
+<h1>Hello!!, World! from TCP server</h1>
+<img src="https://raw.githubusercontent.com/dntfury/scaling-winner/master/server_client_part_1/Screenshot%20(61).png" alt="img" width="200" height="200">
+</body>
+</html>"""
         http_response= http_response + b"""hello"""
         
         client_connection.sendall(http_response)
@@ -35,7 +35,3 @@ while True:
         except SystemExit:
             os._exit(0)
 
-#file transfer over http 
-#fp = open(r"C:\Users\dntfury\Documents\Python Scripts\abc.gif")
-#f=io.TextIOWrapper(io.BytesIO(fp), 'utf-8')
-#http_response= http_response + f
