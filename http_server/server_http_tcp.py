@@ -20,7 +20,7 @@ while True:
 <head><title>TCP server</title></head>
 <body>
 <h1>Hello!!, World! from TCP server</h1>
-<img src="https://raw.githubusercontent.com/dntfury/scaling-winner/master/server_client_part_1/Screenshot%20(61).png" alt="img" width="200" height="200">
+<img src="https://raw.githubusercontent.com/dntfury/scaling-winner/master/server_client_part_1/sample1.png" alt="img" width="200" height="200">
 </body>
 </html>"""
         http_response= http_response + b"""hello"""
