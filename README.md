@@ -15,3 +15,9 @@
 Go to Readme of corresponding folder for more info 
 >> will also see updates 
 
+PICS
+
+![Simple web Server](https://github.com/dntfury/scaling-winner/blob/master/http_server/sample2.png)
+
+
+![Clinet server chat](https://github.com/dntfury/scaling-winner/blob/master/server_client_part_1/sample1.png)
